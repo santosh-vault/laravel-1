@@ -26,7 +26,7 @@
 
             <div class="mt-5">
                 <a href="{{route('dashboard')}}" class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">Dashboard</a>
-                <a href="" class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">Products</a>
+                <a href="{{route('product.index')}}" class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">Products</a>
                 <a href="{{route('category.index')}}" class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">category</a>
                 <a href="" class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">Users</a>
                 <a href="" class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">Logout</a>
