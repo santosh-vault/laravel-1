@@ -7,7 +7,7 @@
 
 
 <div class="grid grid-cols-3 gap-10 mt-10">
-    <div class="bg-blue-600 py-5 px-4 flex justify-between text-white rounded-lg shadow">
+    <div class="bg-red-500 py-5 px-4 flex justify-between text-white rounded-lg shadow">
         <p class="text-xl">Total Products</p>
         <h2 class="text-5xl font-bold">256</h2>
     </div>
@@ -17,7 +17,7 @@
         <h2 class="text-5xl font-bold">256</h2>
     </div>
 
-    <div class="bg-blue-700 py-5 px-4 flex justify-between text-white rounded-lg shadow">
+    <div class="bg-green-500 py-5 px-4 flex justify-between text-white rounded-lg shadow">
         <p class="text-xl">Total Products</p>
         <h2 class="text-5xl font-bold">256</h2>
     </div>
