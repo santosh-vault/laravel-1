@@ -25,11 +25,23 @@
                 class="w-8/12 mx-auto mt-5" alt="">
 
             <div class="mt-5">
-                <a href="{{route('dashboard')}}" class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">Dashboard</a>
-                <a href="{{route('product.index')}}" class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">Products</a>
-                <a href="{{route('category.index')}}" class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">category</a>
+                <a href="{{route('dashboard')}}"
+                    class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">Dashboard</a>
+                <a href="{{route('product.index')}}"
+                    class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">Products</a>
+                <a href="{{route('category.index')}}"
+                    class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">category</a>
                 <a href="" class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">Users</a>
-                <a href="" class="block px-2 py-3 border-l-4 border-blue-600 m-2 hover:bg-gray-300">Logout</a>
+
+                <form action="{{Route('logout')}}" method="post" class="w-full overflow-hidden">
+                    @csrf
+                    <button type="submit"
+                        class="block w-full text-left p-2 py-3 text-lg border-l-4 border-blue-600 mx-2">
+                        Logout
+                    </button>
+
+                </form>
+
             </div>
         </div>
         <div class="p-4 flex-1">
